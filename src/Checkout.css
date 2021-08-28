@@ -1,0 +1,22 @@
+.Checkout{
+  display: flex;
+  background: white;
+  height: max-content;
+}
+.checkout__banner{
+  width: 100%;
+  margin-bottom: 10px;
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1),rgba(0,0,0,0) );
+}
+.checkout__title{
+  margin-bottom:20px ;
+  margin-left: 10px;
+}
+.checkout__right {
+	padding:10px;
+}
+@media only screen and (max-width:750px){
+	.checkout {
+		flex-direction: column-reverse;
+	}
+}
